@@ -1,0 +1,131 @@
+.footer {
+    background: #151421;
+    border-top: 1px solid rgba(249, 249, 249, 0.1);
+}
+
+.footer .row {
+    padding: 48px 0px;
+}
+
+.footer .item .itemHeader {
+    margin-bottom: 24px;
+}
+
+.footer .item .itemHeader .navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    color: #fff;
+}
+
+.footer .item .itemHeader .navbar-brand .logo {
+    color: var(--primary-color);
+    vertical-align: middle;
+}
+
+.footer .item .itemHeader .logoText {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: -5px;
+}
+
+.footer .item .itemHeader h1 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+/* .footer .item .itemBody {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+} */
+
+.footer .item .itemBody p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #97a1a9;
+    margin-bottom: 24px;
+}
+
+.footer .item .itemBody .socialLink a {
+    text-decoration: none;
+    color: #97a1a9;
+    opacity: 0.6;
+    margin-right: 15px;
+    transition: all 0.3s;
+}
+
+.footer .item .itemBody .socialLink a:hover,
+.footer .item .itemBody a:hover,
+.footer .copyRight p a:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.footer .item .itemBody span {
+    display: block;
+    font-size: 18px;
+    line-height: 28px;
+    color: #97a1a9;
+    margin-bottom: 8px;
+}
+
+.footer .item .itemBody a {
+    text-decoration: none;
+    color: #97a1a9;
+    font-size: 18px;
+    line-height: 28px;
+    transition: all 0.3s;
+}
+
+.footer .item .pageLink a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer .copyRight {
+    text-align: center;
+    padding: 24px 0px;
+    border-top: 1px solid rgba(249, 249, 249, 0.1);
+}
+
+.footer .copyRight p {
+    color: #7f8a94;
+    font-size: 17px;
+    letter-spacing: .5px;
+    transform: translateY(50%);
+}
+
+.footer .copyRight p a {
+    text-decoration: none;
+    color: #009F4D;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    .footer .item {
+        margin-bottom: 48px;
+    }
+
+    .footer .item .itemHeader h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+}
