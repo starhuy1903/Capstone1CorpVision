@@ -1,0 +1,129 @@
+.blog {
+    padding: 80px 0px;
+}
+
+.blog .item  {
+    border: 1px solid var(--border-color);
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 4%);
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.blog .item:hover img {
+    transform: scale(1.1);
+}
+
+.blog .item .blogHeader {
+    overflow: hidden;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.blog .item .blogHeader a {
+    text-decoration: none;
+    display: block;
+}
+
+.blog .item .blogHeader a img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    transition: all 0.4s;
+}
+
+.blog .item .blogBody {
+    padding: 15px;
+}
+
+.blog .item .blogBody a {
+    display: block;
+    text-decoration: none;
+}
+
+.blog .item .blogBody a.firstLink {
+    font-weight: 400;
+    line-height: 27px;
+    color: #999;
+    margin-bottom: 14px;
+}
+
+.blog .item .blogBody a.secondLink {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--heading-color);
+    transition: all 0.4s;
+}
+
+.blog .item .blogBody a.secondLink:hover {
+    color: var(--primary-color);
+}
+
+.blog .item .blogFooter {
+    border-top: 1px solid var(--border-color-light);
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.blog .item .blogFooter a {
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 26px;
+    color: var(--heading-color);
+}
+
+.blog .item .blogFooter .blogFooterLogo a:hover {
+    transition: all 0.3s;
+    color: var(--primary-color);
+}
+
+.blog .item .blogFooter .blogFooterLogo span {
+    font-weight: 600;
+    color: var(--font-color);
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+.blog .item .blogFooter strong {
+    font-weight: 400;
+    color: var(--font-color);
+    opacity: 0.8;
+}
+
+.blog .paginationBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.blog .paginationBar a {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    border: 2px solid var(--border-color-light);
+    background-color: transparent;
+    color: var(--font-color);
+    font-weight: 600;
+    line-height: 40px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.blog .paginationBar a.btnChangePage {
+    width: 70px;
+}
+
+.blog .paginationBar a:hover,
+.blog .paginationBar a.current {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
