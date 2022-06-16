@@ -1,0 +1,698 @@
+.title {
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.title span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+  /* letter-spacing: 1px; */
+  color: #7e7d7d;
+  display: block;
+}
+
+.title h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--heading-color);
+  display: block;
+  margin-bottom: 48px;
+}
+
+/* About Company Region Start */
+.aboutCompany {
+  padding: 80px 0px;
+}
+
+.alignLeft {
+  text-align: left !important;
+}
+
+.aboutCompany .itemLeft {
+  position: relative;
+}
+
+.aboutCompany .itemLeft::before {
+  content: "";
+  border-radius: 25% 70% 84% 22% / 42% 75% 25% 75%;
+  width: 500px;
+  height: 500px;
+  background: var(--primary-color);
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.aboutCompany .itemLeft img {
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  height: 500px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 15px 38px 0 rgb(0 0 0 / 20%);
+}
+
+.aboutCompany .itemLeft .infoBox {
+  background-color: var(--primary-color);
+  color: #fff;
+  position: absolute;
+  right: 85px;
+  bottom: 10px;
+  z-index: 2;
+  padding: 35px;
+  box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+  min-width: 200px;
+  border-radius: var(--border-radius);
+  min-height: 200px;
+  transform: rotate(45deg);
+  text-align: center;
+}
+
+.aboutCompany .itemLeft .infoBox .infoText {
+  transform: rotate(-45deg);
+}
+
+.aboutCompany .itemLeft .infoBox .infoText h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.aboutCompany .itemLeft .infoBox .infoText h2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.aboutCompany .item .title h1 {
+  margin-bottom: 24px;
+}
+
+.aboutCompany .item h4 {
+  color: var(--heading-color);
+  margin-bottom: 24px;
+}
+
+.aboutCompany .item p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+  margin-bottom: 48px;
+}
+
+.aboutCompany .buttonBar {
+  display: flex;
+  align-items: center;
+}
+
+.aboutCompany .buttonBar button {
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  transition: all 0.5s;
+  color: #fff;
+  background-color: #00a63f;
+  border: 1px solid #00a63f;
+  margin-right: 25px;
+}
+
+.aboutCompany .buttonBar button:hover {
+  background-color: #008030;
+  border-color: #00732c;
+}
+
+.aboutCompany .buttonBar a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 65px;
+  font-size: 22px;
+  text-align: center;
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--primary-color);
+}
+
+.aboutCompany .buttonBar a i {
+  margin-left: 5px;
+}
+
+.aboutCompany .aboutCompanyFooter {
+  margin-top: 48px;
+  padding-top: 48px;
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--bg-lightgrey);
+  border-radius: 8px;
+  padding: 50px 35px;
+  box-shadow: 0 1rem 32px var(--box-shadow-color);
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem .logo {
+  width: 40px;
+  font-size: 38px;
+  color: var(--primary-color);
+  margin-right: 20px;
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem .logo i {
+  transform: translateY(-7px);
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem .text a {
+  text-decoration: none;
+  display: block;
+  color: var(--heading-color);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  transition: all 0.4s;
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem .text a:hover {
+  color: var(--primary-color);
+}
+
+.aboutCompany .aboutCompanyFooter .footerItem .text p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--heading-color);
+  opacity: 0.8;
+}
+/* About Company Region End */
+
+/* About Stats Region Start */
+.aboutStats {
+  padding: 80px 0px;
+  background-color: var(--bg-lightgrey);
+}
+
+.aboutStats .item .title span {
+  margin-bottom: 16px;
+}
+
+.aboutStats .item .pageStats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutStats .item .pageStats .pageStatsDetail {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.aboutStats .item .pageStats .pageStatsDetail h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.aboutStats .item .pageStats .pageStatsDetail h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  color: var(--heading-color);
+  margin-bottom: 15px;
+}
+
+.aboutStats .item .pageStats .pageStatsDetail p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+}
+
+.aboutStats .item img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+/* About Stats Region End */
+
+/* About PR Start*/
+.aboutPR {
+  background-image: url(../image/bg1-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.aboutPR::before {
+  content: "";
+  background-color: var(--layer);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutPR .aboutPRContent {
+  position: relative;
+  text-align: center;
+  padding: 96px 0px;
+  max-width: 701px;
+  margin: 0px auto;
+}
+
+.aboutPR .aboutPRContent h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.aboutPR .aboutPRContent h2 {
+  font-size: 17px;
+  line-height: 27px;
+  opacity: 0.8;
+  color: #eee;
+  margin-bottom: 24px;
+}
+
+.aboutPR .aboutPRContent a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 65px;
+  font-size: 22px;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+  transition: all 0.3s;
+}
+
+.aboutPR .aboutPRContent a i {
+  margin-left: 5px;
+}
+
+.aboutPR .aboutPRContent a:hover {
+  transform: scale(1.1);
+}
+/* About PR End*/
+
+/* About Team Region Start */
+.aboutTeam {
+  padding: 80px 0px;
+}
+
+.aboutTeam .item {
+  text-align: center;
+  overflow: hidden;
+}
+
+.aboutTeam .item .thumbnail {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.aboutTeam .item .thumbnail img {
+  width: 100%;
+  display: block;
+  border-radius: var(--border-radius);
+}
+
+.aboutTeam .item .thumbnail .teamOverlay {
+  background-color: rgba(20, 20, 20, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 10%;
+  transition: all 0.2s;
+}
+
+.aboutTeam .item .thumbnail .teamOverlay .teamDetail {
+  margin-top: 75%;
+  transition: all 0.2s;
+}
+
+.aboutTeam .item .thumbnail .teamOverlay .teamDetail p {
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+
+.aboutTeam .item .thumbnail .teamOverlay .teamDetail .socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTeam .item .thumbnail .teamOverlay .teamDetail .socialLink a {
+  text-decoration: none;
+  color: #fff;
+  width: 37px;
+  height: 37px;
+  font-size: 14px;
+  line-height: 37px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.aboutTeam .item .thumbnail .teamOverlay .teamDetail .socialLink a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.aboutTeam .item .thumbnail:hover .teamOverlay {
+  opacity: 1;
+}
+
+.aboutTeam .item .thumbnail:hover .teamOverlay .teamDetail {
+  margin-top: 50%;
+}
+
+.aboutTeam .item .itemFooter a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  display: block;
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.aboutTeam .item .itemFooter span {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+}
+
+.aboutTeam .item .itemFooter a:hover {
+  color: var(--primary-color);
+}
+/* About Team Region End */
+
+/* About Reason Region Start */
+.aboutReason {
+  padding: 80px 0px;
+  background-color: var(--bg-lightgrey);
+}
+
+.aboutReason .title h1 {
+  margin: 0px 48px 96px 48px;
+}
+
+.aboutReason .item {
+  margin-bottom: 24px;
+}
+
+.aboutReason .item .icon {
+  font-size: 30px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border: 1px solid;
+  border-radius: var(--border-radius);
+  margin-top: 4px;
+}
+
+.aboutReason .item .icon.color1 {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.aboutReason .item .icon.color2 {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.aboutReason .item .icon.color3 {
+  color: #ff4c4c;
+  border-color: #ff4c4c;
+}
+
+.aboutReason .item .icon.color4 {
+  color: #f48924;
+  border-color: #f48924;
+}
+
+.aboutReason .item .text {
+  padding-left: 48px;
+}
+
+.aboutReason .item .text a {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.aboutReason .item .text p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+}
+
+.aboutReason .item .text a:hover {
+  color: var(--primary-color);
+}
+/* About Reason Region End */
+
+/* About Project Region Start */
+.aboutProject {
+  padding: 80px 0px;
+}
+
+.aboutProject .itemLeft {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.aboutProject .itemLeft h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--heading-color);
+  margin-bottom: 16px;
+}
+
+.aboutProject .itemLeft p {
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+}
+
+.aboutProject .itemRight {
+  text-align: right;
+}
+
+.aboutProject .itemRight a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: var(--border-radius);
+  color: #fff;
+  background-color: #00a63f;
+  border: 1px solid #00a63f;
+  transition: all 0.5s;
+}
+
+.aboutProject .itemRight a:hover {
+  background-color: #008030;
+  border-color: #00732c;
+}
+
+.aboutProject .itemRight a i {
+  margin-left: 4px;
+}
+/* About Project Region End */
+
+@media screen and (min-width: 1280px) {
+  .aboutCompany .container,
+  .aboutStats .container,
+  .aboutPR .container,
+  .aboutTeam .container,
+  .aboutReason .container,
+  .aboutProject .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutCompany .itemLeft::before,
+  .aboutCompany .itemLeft img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .title h1,
+  .aboutPR .aboutPRContent h1,
+  .aboutProject .itemLeft h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .aboutCompany .aboutCompanyFooter .footerItem {
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutCompany .itemLeft::before,
+  .aboutCompany .itemLeft img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .aboutCompany .itemRight {
+    margin-top: 48px;
+  }
+
+  .aboutCompany .aboutCompanyFooter {
+    padding-top: 0;
+  }
+
+  .aboutCompany .aboutCompanyFooter .footerItem {
+    margin-bottom: 24px;
+  }
+
+  .aboutStats .item.itemLeft {
+    margin-bottom: 48px;
+  }
+
+  .aboutTeam .item {
+    margin-bottom: 48px;
+  }
+
+  .aboutReason .title h1 {
+    margin-bottom: 48px;
+  }
+
+  .aboutReason .item .text {
+    padding-left: 24px;
+  }
+
+  .aboutProject .itemRight {
+    text-align: left;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutCompany,
+  .aboutStats,
+  .aboutPR,
+  .aboutTeam,
+  .aboutReason,
+  .aboutProject {
+    padding: 40px 0px;
+  }
+  .aboutCompany .buttonBar a {
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+
+  .aboutCompany .item p {
+    margin-bottom: 24px;
+  }
+
+  .aboutStats .item.itemLeft {
+    margin-bottom: 24px;
+  }
+
+  .aboutPR .aboutPRContent {
+    padding: 48px;
+  }
+
+  .aboutPR .aboutPRContent a {
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+
+  .aboutReason .title h1 {
+    margin: 0 0 48px 0;
+  }
+
+  .aboutReason .item .icon {
+    font-size: 28px;
+  }
+
+  .aboutReason .item .text {
+    padding-left: 16px;
+  }
+
+  .aboutReason .item .text a {
+    font-size: 22px;
+  }
+
+  .aboutProject .itemRight {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutCompany .itemLeft .infoBox {
+    min-width: 150px;
+    min-height: 150px;
+    padding: 30px;
+  }
+
+  .aboutStats .item .pageStats .pageStatsDetail {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .aboutStats .item .pageStats .pageStatsDetail.marginResponsive {
+    margin-bottom: 20px;
+  }
+
+  .aboutStats .item.itemLeft {
+    margin-bottom: 8px;
+  }
+
+  .title h1,
+  .aboutPR .aboutPRContent h1,
+  .aboutProject .itemLeft h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .aboutPR .aboutPRContent {
+    padding: 48px 24px;
+  }
+}
