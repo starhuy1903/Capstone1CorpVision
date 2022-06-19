@@ -2,6 +2,33 @@ body {
   background-color: var(--bg-color-dark);
 }
 
+/* CSS Common */
+.btn {
+  padding: 15px 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #008030;
+  border-color: var(--primary-color);
+}
+
+p {
+  /* color: var(--font-color); */
+  font-size: 17px;
+  line-height: 27px;
+  color: #eee;
+  opacity: 0.8;
+}
+
+/* ==== Slider ==== */
 .slider {
   /* position: relative; */
 }
@@ -55,17 +82,6 @@ body {
   padding-top: 30px;
 }
 
-.slider .carousel-caption a {
-  padding: 15px 50px;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 600;
-  border-radius: 8px;
-  color: #fff;
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
 .slider .carousel-item::before {
   content: "";
   background: var(--layer);
@@ -86,8 +102,6 @@ body {
   position: absolute;
   bottom: 50px;
   right: 25px;
-  /* width: 50px; */
-  /* height: 50px; */
 }
 
 .slider .carousel .carousel-control-prev {
@@ -144,4 +158,47 @@ body {
 /* ==== About : right ======= */
 .about-us .about-img img {
   border-radius: var(--border-radius);
+}
+
+/* ==== Feature ==== */
+.features {
+  background-color: #100f19;
+}
+.feature-grid-right .call-grids-w3 {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.feature-grid-right .call-grids-w3 .box-wrap {
+  padding: 40px 30px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+  background-color: var(--bg-color-dark);
+  transition: 0.3s ease;
+}
+
+.feature-grid-right .call-grids-w3 .box-wrap img {
+  max-width: 65px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature-grid-right .call-grids-w3 .box-wrap h4 a {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 25px;
+  display: block;
+  color: #eee;
+}
+
+.feature-grid-right .call-grids-w3 .box-wrap:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;
+  transition: 0.3s ease;
+}
+
+.feature-grid-right .call-grids-w3 .box-wrap h4 a:hover {
+  color: var(--primary-color);
 }
