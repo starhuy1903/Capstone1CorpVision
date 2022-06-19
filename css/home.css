@@ -14,10 +14,25 @@ body {
   border-color: var(--primary-color);
 }
 
+.btn-style1 {
+  padding: 8px 35px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  color: #eee;
+  border: none;
+  background-color: transparent;
+}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #008030;
   border-color: var(--primary-color);
+}
+
+.btn-style1:hover {
+  color: var(--primary-color);
 }
 
 p {
@@ -200,5 +215,40 @@ p {
 }
 
 .feature-grid-right .call-grids-w3 .box-wrap h4 a:hover {
+  color: var(--primary-color);
+}
+
+/* ==== Service Block ==== */
+.service-image {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.blog-info {
+  padding: 0 20px;
+  position: relative;
+}
+
+.blog-info a.title {
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #eee;
+  text-align: center;
+  background: var(--bg-color-dark);
+  padding: 12px 35px;
+  display: inline-block;
+  border: 1px solid var(--border-color-light);
+  border-radius: var(--border-radius);
+  transform: translateY(-25px);
+  box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+  transition: 0.3s ease;
+}
+
+.blog-info a.title:hover {
+  color: var(--primary-color);
+}
+
+.service-block .grid-info:hover .blog-info .title {
   color: var(--primary-color);
 }
