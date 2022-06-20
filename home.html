@@ -31,10 +31,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
@@ -55,11 +51,9 @@
     />
     <link rel="stylesheet" href="./css/share.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <!-- <link rel="stylesheet" href="./css/footer.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/sideBar.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/backtotop.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/carouselStatic.css" /> -->
-    <!-- <link rel="stylesheet" href="./css/about.css" /> -->
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/sideBar.css" />
+    <link rel="stylesheet" href="./css/backtotop.css" />
     <link rel="stylesheet" href="./css/home.css" />
   </head>
 
@@ -892,6 +886,137 @@
     </section>
     <!-- End Project -->
 
+    <!-- Start Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="itemHeader">
+                <a class="navbar-brand" href="#">
+                  <span class="fa fa-align-right logo"></span>
+                  Corp Vision
+                  <span class="logoText">Vision to your Future</span>
+                </a>
+              </div>
+              <div class="itemBody">
+                <p>
+                  Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                  ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor
+                  sit amet Semper at elit team advisors.
+                </p>
+                <div class="socialLink">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="item">
+              <div class="itemHeader">
+                <h1>CONTACT INFO</h1>
+              </div>
+              <div class="itemBody">
+                <span
+                  >Address : Corp Vision, 343 marketing, #21 cravel 1st lane
+                  street, NY - 62617.</span
+                >
+                <span
+                  >Phone Number :<a href="tel:+1212344567"
+                    >+1(21) 234 4567</a
+                  ></span
+                >
+                <span
+                  >Email :<a href="mailto:info@example.com"
+                    >info@example.com</a
+                  ></span
+                >
+                <span
+                  >Support :<a href="mailto:info@support.com"
+                    >info@support.com</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6">
+            <div class="item">
+              <div class="itemHeader">
+                <h1>CATEGORIES</h1>
+              </div>
+              <div class="itemBody pageLink">
+                <a href="#">Marketing Strategy</a>
+                <a href="#">Startup Business</a>
+                <a href="#">Web development</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6">
+            <div class="item">
+              <div class="itemHeader">
+                <h1>META</h1>
+              </div>
+              <div class="itemBody pageLink">
+                <a href="#">Log in</a>
+                <a href="#">Entries feed</a>
+                <a href="#">Comments feed</a>
+                <a href="#">WordPress.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyRight">
+          <p>
+            © 2022 Corp Vision All Rights Reserved | WordPress Theme by
+            <a href="#">W3Layouts.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sideBarToggler" onclick="collapseSideBar()">
+      <i class="fa-solid fa-angle-double-right" id="doubleArrowIcon"></i>
+    </div>
+    <div class="sideBar" id="sideBar">
+      <div class="sideBarContainer">
+        <div class="sideBarMenu">
+          <div class="sideBarItem">
+            <a href="#">
+              <i class="fa-solid fa-arrow-left"></i>
+              <span>Back</span>
+            </a>
+          </div>
+
+          <div class="sideBarItem">
+            <a href="#">
+              <i class="fa-solid fa-download"></i>
+              <span>Download</span>
+            </a>
+          </div>
+
+          <div class="sideBarItem noMargin">
+            <a href="#">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <span>Buy</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="backToTop" id="backToTop">
+      <button onclick="toTop()">
+        <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </div>
+    <!-- End Footer -->
+
     <!-- JS Code -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
@@ -910,20 +1035,6 @@
       });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <!-- <script>
-      $(document).ready(function () {
-        $(".single-item").slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          fade: true,
-          infinite: true,
-          easing: "fade",
-          infinite: true,
-          adaptiveHeight: true,
-        });
-      });
-    </script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
