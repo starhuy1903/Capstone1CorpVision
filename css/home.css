@@ -48,6 +48,10 @@ p {
   opacity: 0.8;
 }
 
+a:hover {
+  transition: 0.5s all;
+}
+
 /* ==== Slider ==== */
 .slider {
   /* position: relative; */
@@ -568,4 +572,93 @@ p {
   opacity: 1;
   transform: scale(1.5);
   background: var(--secondary-color);
+}
+
+/* ==== Blog ==== */
+.blog .card {
+  background: none;
+  box-shadow: 0 25px 98px 0 rgb(0 0 0 / 4%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog a.zoom {
+  overflow: hidden;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.blog .price-review p a,
+.blog .price-review p {
+  font-weight: 400;
+  font-size: 17px;
+  color: #999;
+}
+
+.blog a.blog-desc {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #eee;
+  margin-top: 10px;
+}
+
+.blog .card-footer {
+  background: var(--bg-color-dark);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog .card-footer .author {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+}
+
+.blog .card-footer .author .post-author {
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.blog .card-footer .author .meta-value {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.blog .card-footer .author a {
+  font-size: 16px;
+  color: #eee;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.blog .card-footer .author .date {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.blog .card-footer .author .date span {
+  color: #c2c2c2;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.blog .card:hover .post-thumbnail img {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.blog a.blog-desc:hover {
+  color: var(--primary-color);
+}
+
+.blog .card-footer .author .blog-meta a:hover {
+  color: var(--primary-color);
 }
