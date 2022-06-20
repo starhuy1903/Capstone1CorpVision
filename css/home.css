@@ -662,3 +662,56 @@ a:hover {
 .blog .card-footer .author .blog-meta a:hover {
   color: var(--primary-color);
 }
+
+/* ==== Project ==== */
+.project {
+  background-image: url(../image/map.png);
+  background-color: #151421;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project .bottom-info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.project form.subscribe {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50px 1fr auto;
+  max-width: 550px;
+  margin: auto;
+}
+
+.project form.subscribe .input-group-text {
+  color: #999;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.15);
+  padding: 0 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.project form.subscribe input[type="email"] {
+  padding: 14px 20px;
+  font-size: 16px;
+  line-height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  width: 100%;
+  background: var(--bg-color-dark);
+  border-radius: 0;
+  color: #999;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.15);
+  border-left: none;
+}
+
+.project form.subscribe button.btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0 25px;
+  font-size: 16px;
+}
