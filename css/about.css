@@ -665,13 +665,63 @@
   }
 }
 
+/* Popup Start */
+#small-dialog1, #small-dialog2 {
+  max-width: 750px;
+  margin: 40px auto;
+  position: relative;
+}
+
+#small-dialog1 iframe,
+#small-dialog2 iframe {
+  width: 100%;
+  height: 420px;
+  display: block;
+  border-radius: 10px;
+}
+
+.mfp-close-btn-in .mfp-close {
+  color: #fff;
+  top: -40px;
+}
+
+.mfp-wrap {
+  z-index: 9999;
+}
+
+.my-mfp-zoom-in .zoom-anim-dialog {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+  opacity: 1;
+  transform: scale(1); }
+
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+  transform: scale(0.8);
+  opacity: 0; }
+
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  transition: opacity 0.3s ease-out; }
+
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.95; }
+
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0; }
+
+/* Popup End*/
+
 @media screen and (max-width: 576px) {
   .aboutCompany .itemLeft::before,
   .aboutCompany .itemLeft img {
     width: 450px;
     height: 450px;
   }
-  
+
   .aboutCompany .itemLeft .infoBox {
     min-width: 150px;
     min-height: 150px;
