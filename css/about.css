@@ -666,6 +666,12 @@
 }
 
 @media screen and (max-width: 576px) {
+  .aboutCompany .itemLeft::before,
+  .aboutCompany .itemLeft img {
+    width: 450px;
+    height: 450px;
+  }
+  
   .aboutCompany .itemLeft .infoBox {
     min-width: 150px;
     min-height: 150px;
