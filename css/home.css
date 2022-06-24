@@ -54,7 +54,7 @@ a:hover {
 
 /* ==== Slider ==== */
 .slider {
-  /* position: relative; */
+  position: relative;
 }
 
 .slider .carousel-item {
@@ -130,6 +130,21 @@ a:hover {
 
 .slider .carousel .carousel-control-prev {
   right: 95px;
+}
+
+.slider .shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.slider .shape svg {
+  width: 100%;
+}
+
+.slider .shape path {
+  fill: var(--bg-color-dark);
 }
 
 /* ==== About ==== */
