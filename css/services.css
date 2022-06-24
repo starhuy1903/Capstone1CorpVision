@@ -377,6 +377,10 @@
         line-height: 32px;
     }
 
+    .contact .item .contactForm .formHeader button {
+        width: 100%;
+    }
+
     .solutions .item a {
         font-size: 18px;
     }
