@@ -57,9 +57,10 @@ a:hover {
 }
 
 .bg-image {
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
 }
 
 .bg-image-1 {

@@ -17,6 +17,17 @@ $(window).on("scroll", function () {
   }
 });
 
+// Open menu pop-up
+const menuToggleIcon = selectElement("#menu-toggle-icon");
+
+const toggleMenu = () => {
+  const mobileMenu = selectElement("#menu");
+  mobileMenu.classList.toggle("activated");
+  menuToggleIcon.classList.toggle("activated");
+};
+
+menuToggleIcon.addEventListener("click", toggleMenu);
+
 // Switch theme/add to local storage
 const body = document.body;
 const themeToggleBtn = selectElement("#theme-toggle-btn");

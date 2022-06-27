@@ -70,23 +70,11 @@
             <span class="logoText">Vision to your Future</span>
           </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon fa-solid fa-bars"></span>
-          </button>
-
           <div
-            class="collapse navbar-collapse align-items-center justify-content-around"
-            id="navbarNavAltMarkup"
+            class="menu collapse navbar-collapse align-items-center justify-content-around"
+            id="menu"
           >
-            <div class="navbar-nav">
+            <div class="navbar-nav mx-lg-auto">
               <div class="navItem">
                 <a class="nav-link" href="index.html">Home</a>
               </div>
@@ -112,10 +100,11 @@
                 </div>
               </div>
               <div class="navItem">
-                <a class="nav-link active" href="#">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </div>
             </div>
-
+          </div>
+          <div class="button-area">
             <div class="search">
               <button class="btnSearch">
                 <i class="fa fa-search"></i>
@@ -131,6 +120,14 @@
                 </div>
               </label>
             </div>
+
+            <button
+              class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+              id="menu-toggle-icon"
+            >
+              <i class="fa-solid fa-bars open-menu-icon"></i>
+              <i class="fa-solid fa-xmark close-menu-icon"></i>
+            </button>
           </div>
         </nav>
       </div>

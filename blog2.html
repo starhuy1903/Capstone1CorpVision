@@ -34,45 +34,58 @@
 
 <body>
     <header class="header" id="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-                <a class="navbar-brand" href="#">
-                    <span class="fa fa-align-right logo"></span>
-                    Corp Vision
-                    <span class="logoText">Vision to your Future</span>
-                </a>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-light justify-content-between"
+        >
+          <a class="navbar-brand" href="#">
+            <span class="fa fa-align-right logo"></span>
+            Corp Vision
+            <span class="logoText">Vision to your Future</span>
+          </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa-solid fa-bars"></span>
-                </button>
+          <div
+            class="menu collapse navbar-collapse align-items-center justify-content-around"
+            id="menu"
+          >
+            <div class="navbar-nav mx-lg-auto">
+              <div class="navItem">
+                <a class="nav-link " href="index.html">Home</a>
+              </div>
+              <div class="navItem">
+                <a class="nav-link" href="about.html">About</a>
+              </div>
+              <div class="navItem">
+                <a class="nav-link" href="services.html">Services</a>
+              </div>
+              <div class="navItem dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <i class="fa-solid fa-angle-down"></i>
+                <div class="dropdown-menu subMenu">
+                  <a class="dropdown-item active" href="blog.html">Blog Posts</a>
+                  <a class="dropdown-item" href="error.html">404 Page</a>
+                  <a class="dropdown-item" href="#">Landing Page</a>
+                  <a class="dropdown-item" href="#">Elements Page</a>
+                </div>
+              </div>
+              <div class="navItem">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="button-area">
+            <div class="search">
+              <button class="btnSearch">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
 
-                <div class="collapse navbar-collapse align-items-center justify-content-around" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <div class="navItem"><a class="nav-link" href="index.html">Home</a></div>
-                        <div class="navItem"><a class="nav-link" href="about.html">About</a></div>
-                        <div class="navItem"><a class="nav-link" href="services.html">Services</a></div>
-                        <div class="navItem dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Pages</a>
-                            <i class="fa-solid fa-angle-down active"></i>
-                            <div class="dropdown-menu subMenu">
-                                <a class="dropdown-item active" href="blog.html">Blog Posts</a>
-                                <a class="dropdown-item " href="error.html">404 Page</a>
-                                <a class="dropdown-item" href="#">Landing Page</a>
-                                <a class="dropdown-item" href="#">Elements Page</a>
-                            </div>
-                        </div>
-                        <div class="navItem"><a class="nav-link" href="contact.html">Contact</a></div>
-                    </div>
-
-                    <div class="search">
-                        <button class="btnSearch">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-
-                    <div class="themeSwitchContainer">
+            <div class="themeSwitchContainer">
               <label class="lblThemeSwitch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
                 <div class="modeContainer" id="theme-toggle-btn">
@@ -81,9 +94,17 @@
                 </div>
               </label>
             </div>
-                </div>
-            </nav>
-        </div>
+
+            <button
+              class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+              id="menu-toggle-icon"
+            >
+              <i class="fa-solid fa-bars open-menu-icon"></i>
+              <i class="fa-solid fa-xmark close-menu-icon"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <section class="carouselStatic">
