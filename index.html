@@ -125,9 +125,9 @@
             <div class="themeSwitchContainer">
               <label class="lblThemeSwitch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
-                <div class="modeContainer">
-                  <i class="gg-sun" id="btnLight"></i>
-                  <i class="gg-moon display" id="btnDark"></i>
+                <div class="modeContainer" id="theme-toggle-btn">
+                  <i class="gg-sun sun-icon" id="btnLight"></i>
+                  <i class="gg-moon moon-icon" id="btnDark"></i>
                 </div>
               </label>
             </div>
@@ -139,164 +139,60 @@
 
     <!-- Start Slider -->
     <section class="slider">
-      <!-- Fix slider start -->
-      <!-- Old code -->
-      <!-- <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active bg-image bg-image-1">
-            <div class="carousel-caption d-none d-md-block">
-              <h1
-                class="animate__animated animate__flipInX"
-                style="animation-delay: 0.8s"
-              >
-                We will solve your issues our vision to your future
-              </h1>
-              <p
-                class="animate__animated animate__fadeInDown"
-                style="animation-delay: 1s"
-              >
-                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
-              </p>
-              <div
-                class="cta-btn animate__animated animate__fadeInUp"
-                style="animation-delay: 1s"
-              >
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item bg-image bg-image-2">
-            <div class="carousel-caption d-none d-md-block">
-              <h1
-                class="animate__animated animate__flipInX"
-                style="animation-delay: 0.8s"
-              >
-                Embracing success do our best, need best advice
-              </h1>
-              <p
-                class="animate__animated animate__fadeInDown"
-                style="animation-delay: 1s"
-              >
-                Some representative placeholder content for the second slide.
-              </p>
-              <div
-                class="cta-btn animate__animated animate__fadeInUp"
-                style="animation-delay: 1s"
-              >
-                <a href="#" class="btn btn-primary">Get Started</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item bg-image bg-image-3">
-            <div class="carousel-caption d-none d-md-block">
-              <h1
-                class="animate__animated animate__flipInX"
-                style="animation-delay: 0.8s"
-              >
-                For those who believe in leaving a mark
-              </h1>
-              <p
-                class="animate__animated animate__fadeInDown"
-                style="animation-delay: 1s"
-              >
-                Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
-              </p>
-              <div
-                class="cta-btn animate__animated animate__fadeInUp"
-                style="animation-delay: 1s"
-              >
-                <a href="#" class="btn btn-primary">Contact Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item bg-image bg-image-4">
-            <div class="carousel-caption d-none d-md-block">
-              <h1
-                class="animate__animated animate__flipInX"
-                style="animation-delay: 0.8s"
-              >
-                Embracing success do our best, need best advice
-              </h1>
-              <p
-                class="animate__animated animate__fadeInDown"
-                style="animation-delay: 1s"
-              >
-                Some representative placeholder content for the second slide.
-              </p>
-              <div
-                class="cta-btn animate__animated animate__fadeInUp"
-                style="animation-delay: 1s"
-              >
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev carousel-btn"
-          type="button"
-          data-bs-target="#carousel-1"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next carousel-btn"
-          type="button"
-          data-bs-target="#carousel-1"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
-      <!-- Old code -->
-
       <!-- New code -->
       <div class="slickCarousel">
+        <div class="item">
+          <img src="./image/b1.jpg" alt="error" />
+          <div class="banner banner1">
+            <h1 class="animate__animated">
+              We will solve your issues our vision to your future
+            </h1>
+            <p class="animate__animated">
+              Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
+            </p>
+            <button class="animate__animated">Get Started</button>
+          </div>
+        </div>
 
         <div class="item">
-          <img src="./image/b1.jpg" alt="error">
-          <div class="banner banner1">
-            <h1 class="animate__animated">We will solve your issues our vision to your
-              future</h1>
-            <p class="animate__animated">Lorem ipsum dolor sit amet, elit, sed do
-              eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
-            <button class="animate__animated">Get
-              Started</button>
-          </div>
-        </div>
-  
-        <div class="item">
-          <img src="./image/b2.jpg" alt="error">
+          <img src="./image/b2.jpg" alt="error" />
           <div class="banner banner2">
-            <h1 class="animate__animated">Embracing success do our best, need best advice</h1>
-            <p class="animate__animated">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <h1 class="animate__animated">
+              Embracing success do our best, need best advice
+            </h1>
+            <p class="animate__animated">
+              Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
+            </p>
             <button class="animate__animated">Learn More</button>
           </div>
         </div>
-  
+
         <div class="item">
-          <img src="./image/b3.jpg" alt="error">
+          <img src="./image/b3.jpg" alt="error" />
           <div class="banner banner3">
-            <h1 class="animate__animated"> Digital transformation driven by technology</h1>
-            <p class="animate__animated">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <h1 class="animate__animated">
+              Digital transformation driven by technology
+            </h1>
+            <p class="animate__animated">
+              Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
+            </p>
             <button class="animate__animated">Learn More</button>
           </div>
         </div>
-  
+
         <div class="item">
-          <img src="./image/b4.jpg" alt="error">
+          <img src="./image/b4.jpg" alt="error" />
           <div class="banner banner4">
-            <h1 class="animate__animated">For those who believe in leaving a mark</h1>
-            <p class="animate__animated">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <h1 class="animate__animated">
+              For those who believe in leaving a mark
+            </h1>
+            <p class="animate__animated">
+              Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.
+            </p>
             <button class="animate__animated">Contact Now</button>
           </div>
         </div>
@@ -1015,7 +911,7 @@
                   sit amet Semper at elit team advisors.
                 </p>
                 <div class="socialLink">
-                  <a href="#"><i class="fa fa-facebook"></i></a>                               
+                  <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                   <a href="#"><i class="fa fa-instagram"></i></a>
                   <a href="#"><i class="fa fa-linkedin-in"></i></a>

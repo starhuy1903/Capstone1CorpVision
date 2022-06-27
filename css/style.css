@@ -1,5 +1,5 @@
 body {
-  background-color: var(--bg-color-dark);
+  background-color: var(--bg-color);
   color: #404040;
 }
 
@@ -21,7 +21,7 @@ body {
   line-height: 28px;
   font-weight: 600;
   transition: 0.3s ease-in;
-  color: #eee;
+  color: var(--heading-color);
   border: none;
   background-color: transparent;
 }
@@ -44,7 +44,7 @@ p {
   /* color: var(--font-color); */
   font-size: 17px;
   line-height: 27px;
-  color: #eee;
+  color: var(--heading-color);
   opacity: 0.8;
 }
 
@@ -163,7 +163,7 @@ a:hover {
   top: 30%;
   left: 30px;
   z-index: 2;
-  color: var(--bg-color);
+  color: var(--light-color);
 }
 
 .slider .slickCarousel .banner h1 {
@@ -182,6 +182,7 @@ a:hover {
   letter-spacing: 0.01em;
   margin-bottom: 25px;
   opacity: 0.8;
+  color: var(--light-color);
 }
 
 .slider .slickCarousel .banner button {
@@ -193,7 +194,7 @@ a:hover {
   background-color: #00a63f;
   border: 1px solid #00a63f;
   cursor: pointer;
-  color: var(--bg-color);
+  color: var(--light-color);
   transition: all 0.5s;
   animation-delay: 1s;
 }
@@ -258,17 +259,17 @@ a:hover {
 .slider .slickCarousel .slick-arrow {
   position: absolute;
   bottom: 50px;
-  background-color: #151421;
+  background-color: var(--bg-color);
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--border-color);
   border-radius: 50%;
   box-shadow: 0 0 15px rgb(0 0 0 / 12%);
   text-align: center;
   z-index: 10;
   cursor: pointer;
-  color: #eee;
+  color: var(--heading-color);
 }
 
 .slider .slickCarousel .next {
@@ -292,7 +293,7 @@ a:hover {
 }
 
 .slider .shape path {
-  fill: var(--bg-color-dark);
+  fill: var(--bg-color);
 }
 
 /* ==== About ==== */
@@ -310,13 +311,13 @@ a:hover {
   font-size: 35px;
   line-height: 45px;
   font-weight: 700;
-  color: #fff;
+  color: var(--heading-color);
 }
 
 .about-us p {
   font-size: 17px;
   line-height: 27px;
-  color: #eee;
+  color: var(--heading-color);
   opacity: 0.8;
 }
 
@@ -333,7 +334,7 @@ a:hover {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #eee;
+  color: var(--heading-color);
 }
 
 .about-us .service-list .service-link i {
@@ -349,7 +350,7 @@ a:hover {
 
 /* ==== Feature ==== */
 .features {
-  background-color: #100f19;
+  background-color: var(--bg-lightgrey);
 }
 .feature-grid-right .call-grids-w3 {
   grid-template-columns: 1fr 1fr;
@@ -361,7 +362,7 @@ a:hover {
   border-radius: var(--border-radius);
   text-align: center;
   box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
-  background-color: var(--bg-color-dark);
+  background-color: var(--bg-color);
   transition: 0.3s ease;
 }
 
@@ -377,7 +378,7 @@ a:hover {
   font-weight: 600;
   margin-top: 25px;
   display: block;
-  color: #eee;
+  color: var(--heading-color);
 }
 
 .feature-grid-right .call-grids-w3 .box-wrap:hover {
@@ -405,9 +406,9 @@ a:hover {
   font-size: 19px;
   line-height: 28px;
   font-weight: 600;
-  color: #eee;
+  color: var(--heading-color);
   text-align: center;
-  background: var(--bg-color-dark);
+  background: var(--bg-color);
   padding: 12px 35px;
   display: inline-block;
   border: 1px solid var(--border-color-light);
@@ -427,7 +428,7 @@ a:hover {
 
 /* ==== Gallery ==== */
 .gallery {
-  background: #100f19;
+  background: var(--bg-lightgrey);
 }
 
 .gallery a.zoom {
@@ -472,7 +473,7 @@ a:hover {
 .gallery .hover-content .title {
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: var(--light-color);
   display: block;
   margin-bottom: 10px;
 }
@@ -501,7 +502,7 @@ a:hover {
 }
 
 .gallery .company-logos {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid var(--border-color-light);
 }
 
 .gallery .company-logos img {
@@ -517,7 +518,7 @@ a:hover {
 
 .progress-block .progress-title {
   font-size: 18px;
-  color: #eee;
+  color: var(--heading-color);
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -527,7 +528,7 @@ a:hover {
   height: 4px;
   overflow: hidden;
   font-size: 0.75rem;
-  background-color: #100f19;
+  background-color: var(--bg-lightgrey);
   border-radius: 0.25rem;
 }
 .progress-block .info1 .progress-title {
@@ -599,7 +600,7 @@ a:hover {
   height: 13px;
   width: 13px;
   border: 3px solid;
-  background-color: var(--bg-color-dark);
+  background-color: var(--bg-color);
 }
 
 .progress-block .progress-bar.gradient-1:after,
@@ -644,7 +645,7 @@ a:hover {
 
 /* ===== Testimonial ===== */
 .testimonials {
-  background: #100f19;
+  background: var(--bg-lightgrey);
 }
 .testimonials .item-content {
   display: block;
@@ -671,7 +672,7 @@ a:hover {
 .testimonials .item-content blockquote q {
   font-size: 18px;
   line-height: 28px;
-  color: #c2c2c2;
+  color: var(--font-color);
   opacity: 0.8;
 }
 
@@ -688,7 +689,7 @@ a:hover {
   height: 70px;
   display: inline-block;
   overflow: hidden;
-  background: var(--bg-color-dark);
+  background: var(--bg-color);
   border-radius: 50%;
 }
 
@@ -707,7 +708,7 @@ a:hover {
   margin: 0px;
   font-weight: 600;
   font-size: 20px;
-  color: #eee;
+  color: var(--heading-color);
 }
 
 .testimonials .item-content .people .identity {
@@ -769,13 +770,13 @@ a:hover {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
-  color: #eee;
+  color: var(--heading-color);
   margin-top: 10px;
 }
 
 .blog .card-footer {
-  background: var(--bg-color-dark);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--bg-color);
+  border-top: 1px solid var(--border-color-light);
 }
 
 .blog .card-footer .author {
@@ -793,7 +794,7 @@ a:hover {
 }
 
 .blog .card-footer .author .meta-value {
-  color: #c2c2c2;
+  color: var(--font-color);
   font-size: 15px;
   font-weight: 600;
   opacity: 0.6;
@@ -801,7 +802,7 @@ a:hover {
 
 .blog .card-footer .author a {
   font-size: 16px;
-  color: #eee;
+  color: var(--heading-color);
   font-weight: 600;
   line-height: 26px;
   text-transform: capitalize;
@@ -814,7 +815,7 @@ a:hover {
 }
 
 .blog .card-footer .author .date span {
-  color: #c2c2c2;
+  color: var(--font-color);
   opacity: 0.8;
   font-size: 15px;
 }
@@ -847,6 +848,14 @@ a:hover {
   margin: 0 auto;
 }
 
+.project .bottom-info .header-section .title-big {
+  color: var(--light-color);
+}
+
+.project .bottom-info .header-section p {
+  color: #eee;
+}
+
 .project form.subscribe {
   position: relative;
   display: grid;
@@ -871,7 +880,7 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.1);
   outline: none;
   width: 100%;
-  background: var(--bg-color-dark);
+  background: var(--bg-color);
   border-radius: 0;
   color: #999;
   background-color: rgba(0, 0, 0, 0.2);
