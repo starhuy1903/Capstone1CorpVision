@@ -730,3 +730,30 @@ a:hover {
   padding: 0 25px;
   font-size: 16px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1200) {
+  .slider .carousel-caption h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .slider .carousel-caption h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider .carousel-caption h1 {
+    font-size: 45px;
+  }
+
+  .slider .carousel-caption p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .slider .carousel-caption h1 {
+    font-size: 40px;
+  }
+}
