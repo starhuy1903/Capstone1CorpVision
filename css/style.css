@@ -132,6 +132,156 @@ a:hover {
   right: 95px;
 }
 
+/* Fix slider start */
+.slider .slickCarousel {
+  position: relative;
+}
+
+.slider .slickCarousel .item {
+    position: relative;
+}
+
+.slider .slickCarousel .item::before {
+    content: "";
+    background-color: var(--layer);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.slider .slickCarousel img {
+  width: 100%;
+  height: 800px;
+  display: block;
+}
+
+.slider .slickCarousel .banner {
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    z-index: 2;
+    color: var(--bg-color);
+}
+
+.slider .slickCarousel .banner h1 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 1.1;
+    max-width: 800px;
+    margin-bottom: 18px;
+    animation-delay: 0.8s;
+}
+
+.slider .slickCarousel .banner p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    max-width: 600px;
+    letter-spacing: 0.010em;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+
+.slider .slickCarousel .banner button {
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    border-radius: var(--border-radius);
+    background-color: #00a63f;
+    border: 1px solid #00a63f;
+    cursor: pointer;
+    color: var(--bg-color);
+    transition: all 0.5s;
+    animation-delay: 1s;
+}
+
+.slider .slickCarousel .banner button:hover {
+    background-color: #008030;
+    border-color: #00732c;
+}
+
+/* Slide1 */
+.slider .slickCarousel .slick-active .banner1 h1 {
+    animation-name: flipInX;
+}
+
+.slider .slickCarousel .slick-active .banner1 p {
+    animation-name: fadeInDown;
+}
+
+.slider .slickCarousel .slick-active .banner1 button {
+    animation-name: fadeInUp;
+}
+
+/* Slide2 */
+.slider .slickCarousel .slick-active .banner2 h1 {
+    animation-name: fadeInDown;
+}
+
+.slider .slickCarousel .slick-active .banner2 p {
+    animation-name: fadeInDown;
+}
+
+.slider .slickCarousel .slick-active .banner2 button {
+    animation-name: fadeInDown;
+}
+
+/* Slide3 */
+.slider .slickCarousel .slick-active .banner3 h1 {
+    animation-name: fadeInUp;
+}
+
+.slider .slickCarousel .slick-active .banner3 p {
+    animation-name: fadeInUp;
+}
+
+.slider .slickCarousel .slick-active .banner3 button {
+    animation-name: fadeInDown;
+}
+
+/* Slide4 */
+.slider .slickCarousel .slick-active .banner4 h1 {
+    animation-name: flipInX;
+}
+
+.slider .slickCarousel .slick-active .banner4 p {
+    animation-name: fadeInDown;
+}
+
+.slider .slickCarousel .slick-active .banner4 button {
+    animation-name: fadeInUp;
+}
+
+.slider .slickCarousel .slick-arrow {
+    position: absolute;
+    bottom: 50px;
+    background-color: #151421;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 12%);
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+    color: #eee;
+    
+}
+
+.slider .slickCarousel .next {
+    right: 25px;
+}
+
+.slider .slickCarousel .prev {
+    right: 95px;
+}
+/* Fix slider end */
+
 .slider .shape {
   position: absolute;
   bottom: 0;
@@ -602,6 +752,13 @@ a:hover {
   border-top-right-radius: 6px;
 }
 
+/* Fix blog img width start */
+.blog .post-thumbnail img {
+  max-width: 100%;
+  display: block;
+}
+/* Fix blog img width end */
+
 .blog .price-review p a,
 .blog .price-review p {
   font-weight: 400;
@@ -730,3 +887,52 @@ a:hover {
   padding: 0 25px;
   font-size: 16px;
 }
+
+/* Responsive start */
+@media screen and (max-width: 1200px) {
+  .title-big {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slider .slickCarousel .item {
+    min-height: 650px;
+  }
+
+  .slider .slickCarousel .banner h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider .slickCarousel .item {
+    min-height: 600px;
+  }
+
+  .slider .slickCarousel .banner h1 {
+    font-size: 45px;
+  }
+
+  .slider .slickCarousel .banner p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title-big {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .slider .slickCarousel .item {
+    min-height: 550px;
+  }
+
+  .slider .slickCarousel .banner h1 {
+    font-size: 36px;
+  }
+}
+/* Responsive end */
