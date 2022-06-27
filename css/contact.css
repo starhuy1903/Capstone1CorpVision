@@ -1,226 +1,227 @@
 .title {
-    max-width: 800px;
-    margin: 0px auto;
-    text-align: center;
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 .title span {
-    font-size: 17px;
-    line-height: 27px;
-    color: var(--font-color);
-    opacity: 0.8;
-    display: block;
-    margin-bottom: 48px;
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 48px;
 }
 
 .title h1 {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 45px;
-    color: var(--heading-color);
-    display: block;
-    padding: 0px 48px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+  color: var(--heading-color);
+  display: block;
+  padding: 0px 48px;
 }
 
 /* Contact Info Region Start */
 .contactInfo {
-    padding: 80px 0px;
-    background-color: var(--bg-lightgrey);
+  padding: 80px 0px;
+  background-color: var(--bg-lightgrey);
 }
 
 .contactInfo .item {
-    background-color: var(--bg-color);
-    padding: 30px;
-    box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
-    border-radius: var(--border-radius);
-    display: flex;
-    margin-bottom: 20px;
+  background-color: var(--bg-color);
+  padding: 30px;
+  box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
+  border-radius: var(--border-radius);
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .contactInfo .item .icon {
-    font-size: 40px;
-    color: var(--heading-color);
-    padding-right: 20px;
+  font-size: 40px;
+  color: var(--heading-color);
+  padding-right: 20px;
 }
 
 .contactInfo .item .icon i {
-    margin-top: 3px;
-    vertical-align: top;
+  margin-top: 3px;
+  vertical-align: top;
 }
 
 .contactInfo .item .text .textHeader span {
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--heading-color);
-    margin-bottom: 8px;
-    display: block;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 8px;
+  display: block;
 }
 
 .contactInfo .item .text .textBody p {
-    font-size: 17px;
-    line-height: 27px;
-    color: var(--font-color);
-    opacity: 0.8;
-    margin-bottom: 0;
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+  margin-bottom: 0;
 }
 
 .contactInfo .item .text .textBody a {
-    text-decoration: none;
-    font-size: 17px;
-    line-height: 27px;
-    color: var(--font-color);
-    opacity: 0.8;
-    transition: all 0.5s;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 27px;
+  color: var(--font-color);
+  opacity: 0.8;
+  transition: all 0.5s;
 }
 
 .contactInfo .item .text .textBody a:hover {
-    color: var(--heading-color);
+  color: var(--heading-color);
 }
 /* Contact Info Region End */
 
 /* Contact Map Region Start */
 .contactMap {
-    background-color: var(--bg-lightgrey);
+  background-color: var(--bg-lightgrey);
 }
 
 .contactMap .map iframe {
-    width: 100%;
-    min-height: 400px;
-    display: block;
+  width: 100%;
+  min-height: 400px;
+  display: block;
 }
 
 /* Contact Map Region End */
 
 /* Contact Form Region Start */
 .contactForm {
-    padding: 80px 0px;
-    background-color: var(--bg-lightgrey);
+  padding: 80px 0px;
+  background-color: var(--bg-lightgrey);
 }
 
 .contactForm .formContent {
-    max-width: 900px;
-    margin: 0px auto;
+  max-width: 900px;
+  margin: 0px auto;
 }
 
 .contactForm .formContent .formTop {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .contactForm .formContent .formTop .column {
-    width: 50%;
-    padding: 10px;
+  width: 50%;
+  padding: 10px;
 }
 
 .contactForm .formContent .formTop .item input,
 .contactForm .formContent .formBottom textarea {
-    width: 100%;
-    font-size: 18px;
-    color: var(--font-color);
-    padding: 0px 25px;
-    border: 1px solid var(--border-color-light);
-    border-radius: var(--border-radius);
-    outline: none;
-    height: 60px;
-    display: inline-block;
-    line-height: 50px;
-    box-shadow: none;
+  width: 100%;
+  font-size: 18px;
+  color: var(--font-color);
+  padding: 0px 25px;
+  border: 1px solid var(--border-color-light);
+  border-radius: var(--border-radius);
+  outline: none;
+  height: 60px;
+  display: inline-block;
+  line-height: 50px;
+  box-shadow: none;
+  background: var(--bg-color);
 }
 
 .contactForm .formContent .formTop .item input:focus {
-    border-color: var(--heading-color);
-    background-color: transparent;
+  border-color: var(--heading-color);
+  background-color: transparent;
 }
 
 .contactForm .formContent .formBottom {
-    padding: 10px;
+  padding: 10px;
 }
 
 .contactForm .formContent .formBottom textarea {
-    resize: none;
-    width: 100%;
-    height: 130px;
+  resize: none;
+  width: 100%;
+  height: 130px;
 }
 
 .contactForm .formContent .btnSubmit {
-    padding: 10px;
-    text-align: right;
+  padding: 10px;
+  text-align: right;
 }
 
 .contactForm .formContent .btnSubmit button {
-    padding: 15px 50px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 18px;
-    border: 1px solid #00a63f;
-    border-radius: var(--border-radius);
-    color: #fff;
-    background-color: #00a63f;
-    transition: all 0.3s;
+  padding: 15px 50px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  border: 1px solid #00a63f;
+  border-radius: var(--border-radius);
+  color: #fff;
+  background-color: #00a63f;
+  transition: all 0.3s;
 }
 
 .contactForm .formContent .btnSubmit button:hover {
-    background-color: #008030;
-    border-color: #00732c;
+  background-color: #008030;
+  border-color: #00732c;
 }
 /* Contact Form Region End */
 
 @media screen and (max-width: 1280px) {
-    .contactInfo .container,
-    .contactMap .container
-    .contactForm .container {
-        max-width: 1200px;
-    }
+  .contactInfo .container,
+  .contactMap .container .contactForm .container {
+    max-width: 1200px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .title h1 {
-        font-size: 32px;
-        line-height: 40px;
-    }
+  .title h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .title span {
-        padding: 0px 20px;
-    }
+  .title span {
+    padding: 0px 20px;
+  }
 
-    .contactInfo .column {
-        padding: 0px 15px;
-    }
+  .contactInfo .column {
+    padding: 0px 15px;
+  }
 
-    .contactForm .formContent .btnSubmit {
-        text-align: center;
-    }
+  .contactForm .formContent .btnSubmit {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .contactForm , .contactInfo {
-        padding: 40px 0px;
-    }
+  .contactForm,
+  .contactInfo {
+    padding: 40px 0px;
+  }
 
-    .contactInfo .column {
-        padding: 0px 30px;
-    }
+  .contactInfo .column {
+    padding: 0px 30px;
+  }
 
-    .contactInfo .item {
-        margin-bottom: 30px;
-    }
+  .contactInfo .item {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .title h1 {
-        font-size: 30px;
-        line-height: 38px;
-    }
+  .title h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
 
-    .title span, .title h1 {
-        padding: 0;
-    }
+  .title span,
+  .title h1 {
+    padding: 0;
+  }
 
-    .contactForm .formContent .btnSubmit button {
-        width: 100%;
-    }
-
+  .contactForm .formContent .btnSubmit button {
+    width: 100%;
+  }
 }
