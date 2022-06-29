@@ -110,7 +110,6 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  /* z-index: -1; */
 }
 
 .slider .carousel {
@@ -157,7 +156,7 @@ a:hover {
 .slider .slickCarousel .banner {
   position: absolute;
   top: 30%;
-  left: 30px;
+  left: 15%;
   z-index: 2;
   color: var(--light-color);
 }
